@@ -1,59 +1,36 @@
-# Alafia Braiding Studio
+# Josephine Adelegan Portfolio
 
-Static salon website for Alafia Braiding Studio.
-
-## Files
-
-- `index.html`: main site markup
-- `styles.css`: visual design and responsive layout
-- `script.js`: booking preview, local persistence, and live submission flow
-- `assets/studio-reel.mov`: local salon video asset
-- `manifest.webmanifest`: installable app metadata
-- `sw.js`: offline caching for the PWA
-- `capacitor.config.json`: native wrapper starter config
-- `APP-STORES.md`: App Store and Google Play packaging notes
+Static personal website for Josephine Adelegan, designed as a clean, domain-ready portfolio that can be published as a simple website or wrapped with Capacitor.
 
 ## Local preview
 
 Run:
 
 ```bash
-python3 -m http.server 8000 --bind 127.0.0.1
+npm run serve
 ```
 
-Then open:
+Then open `http://127.0.0.1:8000`.
 
-`http://127.0.0.1:8000`
+## Main files
 
-## Live booking flow
+- `index.html`: homepage content and section structure
+- `styles.css`: full visual system and responsive layout
+- `script.js`: mobile navigation and service worker registration
+- `manifest.webmanifest`: installable web app metadata
+- `sw.js`: offline asset caching
+- `privacy.html`: lightweight privacy page
 
-The booking form posts to FormSubmit:
+## GitHub Pages publish
 
-- endpoint: `https://formsubmit.co/ajax/alafiabraidingsalon@gmail.com`
-- first live submission may require activation from the salon email inbox
+Recommended repo name:
 
-After activation, form submissions can be delivered without maintaining a custom backend.
+- `josephineadelegan.github.io`
 
-## Deployment
+This project already includes:
 
-This project can be deployed as a plain static site on:
+- `.nojekyll` to ensure GitHub Pages serves the site as plain static files
 
-- GitHub Pages
-- Netlify
-- Vercel static hosting
+Current recommended live URL:
 
-## Mobile app readiness
-
-The site now supports:
-
-- installable PWA behavior in supported browsers
-- offline caching for core assets
-- a Capacitor starter config for packaging as iOS and Android apps later
-
-Read `APP-STORES.md` for the remaining App Store / Google Play steps.
-
-## Recommended next edits
-
-- replace starting prices with exact final service pricing
-- add more real braid photos
-- connect a dedicated booking system if calendar management is needed
+- `https://josephineadelegan.github.io`

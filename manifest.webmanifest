@@ -1,11 +1,11 @@
 {
-  "name": "Alafia Braiding Studio",
-  "short_name": "Alafia",
-  "description": "Protective styling, booking, and studio details for Alafia Braiding Studio.",
+  "name": "Josephine Adelegan",
+  "short_name": "JA",
+  "description": "Personal portfolio for Josephine Adelegan.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#fbf6ef",
-  "theme_color": "#8f4a2c",
+  "background_color": "#fbf8f2",
+  "theme_color": "#0f3b44",
   "orientation": "portrait",
   "icons": [
     {

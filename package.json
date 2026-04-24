@@ -1,8 +1,8 @@
 {
-  "name": "alafia-braiding-studio",
+  "name": "josephine-adelegan-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Static salon site and mobile wrapper starter for Alafia Braiding Studio.",
+  "description": "Static personal portfolio site for Josephine Adelegan.",
   "scripts": {
     "serve": "python3 -m http.server 8000 --bind 127.0.0.1",
     "cap:add:ios": "npx cap add ios",

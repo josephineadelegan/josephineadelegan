@@ -1,6 +1,6 @@
 {
-  "appId": "com.alafiabraiding.studio",
-  "appName": "Alafia Braiding Studio",
+  "appId": "com.josephineadelegan.portfolio",
+  "appName": "Josephine Adelegan",
   "webDir": ".",
   "bundledWebRuntime": false,
   "server": {

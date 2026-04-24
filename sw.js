@@ -1,12 +1,12 @@
-const CACHE_NAME = "alafia-braiding-v1";
+const CACHE_NAME = "josephine-adelegan-site-v1";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./script.js",
   "./manifest.webmanifest",
+  "./privacy.html",
   "./assets/app-icon.svg",
-  "./assets/studio-reel.mov",
 ];
 
 self.addEventListener("install", (event) => {
